@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 
 np.random.seed(42)
 
-x1 = np.random.normal(2,0.5,(50,3))
-x2 = np.random.normal(7,0.5,(50,3))
-x3 = np.random.normal(4,0.5,(50,3))
+x1 = np.random.normal(2,0.5,(50,2))
+x2 = np.random.normal(7,0.5,(50,2))
+x3 = np.random.normal(4,0.5,(50,2))
 data = np.vstack((x1,x2,x3))
 
 k=3
